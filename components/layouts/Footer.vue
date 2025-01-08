@@ -6,13 +6,5 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
 
 <template>
   <section class="md:pt-6">
-    <div class="container flex flex-col items-center py-8 mx-auto sm:flex-row">
-      <span
-        class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0"
-        target="_blank"
-      >
-        &copy; {{ new Date().getFullYear() }} All rights reserved.
-      </span>
-    </div>
   </section>
 </template>
